@@ -1,0 +1,137 @@
+body {
+  background: #FCFCFC;
+  font-family: helvetica, arial, 'sans-serif';
+}
+
+header {
+  background-color: #666;
+}
+
+header h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #C0C0C0;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+nav ul li {
+  padding: 0;
+  margin-left: 1rem;
+  display: inline;
+}
+
+nav a.lnk_right {
+  float: right;
+  margin-left:  20px;
+}
+
+footer {
+  margin-top: 1rem;
+  border-top: 1px solid #EEE;
+  color: #CCC;
+}
+
+#featured {
+  text-align: center;
+  background-color: #DCDCDC;
+  margin: 20px 0 20px 0;
+  padding: 20px;
+}
+
+#motorcycle {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+#motorcycle img {
+  width: 80%;
+}
+
+#motorcycles {
+  margin: 20px 0 20px 0;
+  background-color: #AAA;
+  width: 100%;
+  padding: 20px;
+  border-collapse: collapse;
+}
+
+#motorcycles thead {
+  text-align: left;
+  background-color: #333;
+  color: #FFF;
+}
+
+#motorcycles td, #motorcycles th {
+  padding: 20px;
+}
+
+#motorcycles tbody tr:hover {
+  background-color: #999;
+}
+
+img.thumbnail {
+  border: 1px solid #666;
+  box-shadow: -1px 1px 4px #666;
+}
+
+#motorcycle img {
+  box-shadow: -2px 2px 6px #666;
+}
+#motorcycle_form_container {
+  margin: 40px;
+}
+
+#motorcycle_form_container label {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 40px;
+}
+#motorcycle_form_container input[type='submit'] {
+  margin-left: 150px;
+}
+
+ul#categories, ul#manufacturers {
+  list-style-type: none;
+  margin: 40px;
+  padding: 0;
+}
+
+a.favoriteButton {
+  text-decoration:  none;
+  color: #999;
+}
+
+.list_controls {
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+
+.control {
+  width: 50%;
+  padding: 8px;
+  margin: 20px;
+  background: #00AB66;
+  color: #FFF;
+  box-shadow: -1px 1px 4px #666;
+}
+
+.control a {
+  color:  #EEE;
+  text-decoration: none;
+}
+
+.control a:hover {
+  color: #FFF;
+}
